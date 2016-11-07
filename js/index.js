@@ -1,5 +1,7 @@
 
 $(function(){
+	//禁止选中
+	document.body.onselectstart = function(){return false};
 	loadImage(['./images/bg.jpg','./images/sun.png','./images/earth.png'], animation);
 	var timer=null;
 	var boxHeight=parseFloat($('#box').css('paddingTop'))
@@ -174,6 +176,7 @@ $(function(){
 	var flag=true;
 	moveMobile.handTouch=function(){
 		var x=0;
+		var touchL=0;
 		var dis=0;
 		//起始位置
 		nowl=parseInt($('#bg .moveBg').css('left'));
@@ -190,14 +193,15 @@ $(function(){
 		　　　　event.preventDefault();// 阻止浏览器默认事件，重要 
 			var touch = event.targetTouches[0];
 			dis=touch.pageX-x;
+			touchL=nowl+dis;
 			//碰撞检测
-			if((nowl+dis) <= (parseInt($('body').css('width'))/2-parseInt($('#bg .moveBg').css('width'))/2)*2){
-		       		(nowl+dis)=(parseInt($('body').css('width'))/2-parseInt($('#bg .moveBg').css('width'))/2)*2;
-		       	}else if( (nowl+dis) >=0){
-		       		(nowl+dis)=0;
+			if(touchL<= (parseInt($('body').css('width'))/2-parseInt($('#bg .moveBg').css('width'))/2)*2){
+		       		touchL=(parseInt($('body').css('width'))/2-parseInt($('#bg .moveBg').css('width'))/2)*2;
+		       	}else if( touchL >=0){
+		       		touchL=0;
 		       	}
 			// 把元素放在手指所在的位置
-			$('#bg .moveBg').css('left',(nowl+dis)+'px')
+			$('#bg .moveBg').css('left',touchL+'px')
 		}, false);
 			window.addEventListener('touchend', function(event) {
 			// 如果这个元素的位置内只有一个手指的话
