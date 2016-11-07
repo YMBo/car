@@ -60,7 +60,7 @@ $(function(){
 		var num=0;
 		var img=[];
 		function imageload(){
-		        num++
+		        num++;
 		        if (num==url.length){
 		            callback();
 		        }
@@ -68,9 +68,14 @@ $(function(){
 		 for(var i=0;i<url.length;i++){
 		 	img[i] = new Image();
 		 	img[i].src = url[i];
-		 	img[i].onload = function () { //图片下载完毕时异步调用callback函数。
-		 	        imageload();
-		 	};
+		 	//图片下载完毕时异步调用callback函数。
+		 	if(img[i].complete){                  //ie
+		 		imageload();
+		 	}else{
+			 	img[i].onload = function () { 
+			 	        imageload();
+			 	};
+		 	}
 		 }
 		 
 	};
