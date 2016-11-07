@@ -44,6 +44,8 @@ $(function(){
 					if(navigator.userAgent.match(/Android/i) || navigator.userAgent.indexOf('iPhone') != -1 || navigator.userAgent.indexOf('iPod') != -1 || navigator.userAgent.indexOf('iPad') != -1){					
 						//移动端
 						moveMobile();
+						//滑屏
+						moveMobile.handTouch();
 					}else{
 						mouse()
 					}
@@ -166,6 +168,46 @@ $(function(){
 			})
 		})
 	}
+	//滑屏
+	var nowl=0;
+	//滑屏陀螺仪里的获取nowl值不能同时运行
+	var flag=true;
+	moveMobile.handTouch=function(){
+		var x=0;
+		var dis=0;
+		//起始位置
+		nowl=parseInt($('#bg .moveBg').css('left'));
+			window.addEventListener('touchstart', function(event) {
+			// 如果这个元素的位置内只有一个手指的话
+		　　　　event.preventDefault();// 阻止浏览器默认事件，重要 
+			var touch = event.targetTouches[0];
+			// 把元素放在手指所在的位置
+			x=touch.pageX;
+			flag=false;
+		}, false);
+			window.addEventListener('touchmove', function(event) {
+			// 如果这个元素的位置内只有一个手指的话
+		　　　　event.preventDefault();// 阻止浏览器默认事件，重要 
+			var touch = event.targetTouches[0];
+			dis=touch.pageX-x;
+			//碰撞检测
+			if((nowl+dis) <= (parseInt($('body').css('width'))/2-parseInt($('#bg .moveBg').css('width'))/2)*2){
+		       		(nowl+dis)=(parseInt($('body').css('width'))/2-parseInt($('#bg .moveBg').css('width'))/2)*2;
+		       	}else if( (nowl+dis) >=0){
+		       		(nowl+dis)=0;
+		       	}
+			// 把元素放在手指所在的位置
+			$('#bg .moveBg').css('left',(nowl+dis)+'px')
+		}, false);
+			window.addEventListener('touchend', function(event) {
+			// 如果这个元素的位置内只有一个手指的话
+		　　　　event.preventDefault();// 阻止浏览器默认事件，重要 
+			var touch = event.targetTouches[0];
+			///刷新起始位置
+			nowl=parseInt($('#bg .moveBg').css('left'));
+			flag=true;
+		}, false);
+	}
 	//移动端移动
 	function moveMobile(){
 		//中线
@@ -204,19 +246,30 @@ $(function(){
 		       	$('#bg .moveBg').css({
 		       		'left':left+'px'
 		       	})
+		       	if(flag){
+		       		nowl=left;
+		       	}
 		       	//显示车型
 		       	if((Math.abs(moveBgL-b)<step)&&$('#bg .cx_seven').find('.num2').css('display')=='none'){
 		       		$('.moveBg').find('.num2').stop(true).fadeOut();
+		       		$('.moveBg').find('.num1').fadeTo('fast',0) ;
 		       		$('#bg .cx_seven').find('.num2').stop(true).fadeIn();
+		       		$('#bg .cx_seven').find('.num1').fadeTo('fast',1) ;
 		       	}else if((Math.abs(moveBgL-a)<step)&&$('#bg .m_six').find('.num2').css('display')=='none'){
 		       		$('.moveBg').find('.num2').stop(true).fadeOut();
+		       		$('.moveBg').find('.num1').fadeTo('fast',0) ;
 		       		$('#bg .m_six').find('.num2').stop(true).fadeIn();
+		       		$('#bg .m_six').find('.num1').fadeTo('fast',1) ;
 		       	}else if((Math.abs(moveBgL-c)<step)&&$('#bg .m_eight').find('.num2').css('display')=='none'){
 		       		$('.moveBg').find('.num2').stop(true).fadeOut();
+		       		$('.moveBg').find('.num1').fadeTo('fast',0) ;
 		       		$('#bg .m_eight').find('.num2').stop(true).fadeIn();
+		       		$('#bg .m_eight').find('.num1').fadeTo('fast',1) ;
 		       	}else if((Math.abs(moveBgL-ry)<step)&&$('#bg .m_ry').find('.num2').css('display')=='none'){
 		       		$('.moveBg').find('.num2').stop(true).fadeOut();
+		       		$('.moveBg').find('.num1').fadeTo('fast',0);
 		       		$('#bg .m_ry').find('.num2').stop(true).fadeIn();
+		       		$('#bg .m_ry').find('.num1').fadeTo('fast',1);
 		       	}
 		       }else{
 		       	return;
