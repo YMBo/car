@@ -1,0 +1,519 @@
+@keyframes star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+@-moz-keyframes  star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+@-webkit-keyframes star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+@-o-keyframes star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+.content_body .sky .skybg{
+	background: url('../images/sky.png') center no-repeat;
+	background-size:cover; 
+}
+.sky ul span.linet .moveBg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+ }
+.content_body .sky .linet{
+	position: absolute;
+}
+.content_body .sky .coverPos{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	overflow: hidden;
+}
+#bg .content .move a.one{
+	top: 0;
+}
+/* 发展历程文字 */
+.content_body .sky span.none{
+	top: -22%;
+	left: -1%;
+}
+.content_body .sky span.onet{
+	width: 6.751%;
+	padding-bottom: 14.24%;
+	top: -11%;
+	left: 6%;
+}
+.content_body .sky span.onet .moveBg{
+	background: url(../images/skyline1.png);
+	background-size: cover; 
+}
+.content_body .sky span.ntwo{
+	top: 40%;
+	left: -9%;
+}
+.content_body .sky span.twot{
+	width: 4.2194%;
+	padding-bottom: 14.8737%;
+	top: 37%;
+	left: 6%;
+}
+.content_body .sky span.twot .moveBg{
+	background: url(../images/skyline2.png);
+	background-size: cover; 
+}
+.content_body .sky span.nthree{
+	top: 80%;
+	left: -2%;
+}
+.content_body .sky span.threet{
+	width: 9.0719%;
+	padding-bottom: 10.6542%;
+	top: 86%;
+	left: 10%;
+}
+.content_body .sky span.threet .moveBg{
+	background: url(../images/skyline3.png);
+	background-size: cover; 
+}
+.content_body .sky span.nfour{
+	top: 122%;
+	left: 2%;
+}
+.content_body .sky span.fourt{
+	width: 20.148%;
+	padding-bottom: 3.059%;
+	top: 120%;
+	left: 19%;
+}
+.content_body .sky span.fourt .moveBg{
+	background: url(../images/skyline4.png);
+	background-size: cover; 
+}
+.content_body .sky span.nfive{
+	top: 131%;
+	left: 30%;
+}
+.content_body .sky span.fivet{
+	width: 22.4688%;
+	padding-bottom: 2.953%;
+	top: 125%;
+	left: 39%;
+}
+.content_body .sky span.fivet .moveBg{
+	background: url(../images/skyline5.png);
+	background-size: cover; 
+}
+.content_body .sky span.nsix{
+	top: 132%;
+	left: 53%;
+}
+.content_body .sky span.sixt{
+	width: 24.473%;
+	padding-bottom:12.7639%;
+	top: 87%;
+	left: 61.5%;
+}
+.content_body .sky span.sixt .moveBg{
+	background: url(../images/skyline6.png);
+	background-size: cover; 
+}
+.content_body .sky span.nseven{
+	top: 99%;
+	left: 83%;
+}
+.content_body .sky span.sevent{
+	width: 3.1646%;
+	padding-bottom: 18.46%;
+	top: 27%;
+	left: 86%;
+}
+.content_body .sky span.sevent .moveBg{
+	background: url(../images/skyline7.png);
+	background-size: cover; 
+}
+.content_body .sky span.neight{
+	top: 0%;
+	left: 89%;
+}
+.content_body .sky span.eightt{
+	width: 14.346%;
+	padding-bottom: 11.3926%;
+	top: -10%;
+	left: 75%;
+}
+.content_body .sky span.eightt .moveBg{
+	background: url(../images/skyline8.png);
+	background-size: cover; 
+}
+.content_body .sky span.nnine{
+	top: -39%;
+	left: 68%;
+}
+.content_body .sky span.ninet{
+	width: 17.088%;
+	padding-bottom: 2.7422%;
+	top: -19.5%;
+	left: 58%;
+}
+.content_body .sky span.ninet .moveBg{
+	background: url(../images/skyline9.png);
+	background-size: cover; 
+}
+.content_body .sky span.nten{
+	top: -38%;
+	left: 47%;
+}
+.content_body .sky span.tent{
+	width: 21.9413%;
+	padding-bottom: 3.3755%;
+	top: -19%;
+	left: 36%;
+}
+.content_body .sky span.tent .moveBg{
+	background: url(../images/skyline10.png);
+	background-size: cover; 
+}
+.content_body .sky span.neleven{
+	top: -18%;
+	left: 25%;
+}
+.content_body .sky span.elevent{
+	width: 10.2322%;
+	padding-bottom: 11.7091%;
+	top: -9%;
+	left: 26%;
+}
+.content_body .sky span.elevent .moveBg{
+	background: url(../images/skyline11.png);
+	background-size: cover; 
+}
+.content_body .sky span.ntwelve{
+	top: 28%;
+	left: 16%;
+}
+.content_body .sky span.twelvet{
+	width: 8.1225%;
+	padding-bottom: 14.2408%;
+	top: 30%;
+	left: 26%;
+}
+.content_body .sky span.twelvet .moveBg{
+	background: url(../images/skyline12.png);
+	background-size: cover; 
+}
+.content_body .sky span.nthirteen{
+	top: 82%;
+	left: 23%;
+}
+.content_body .sky span.thirteent{
+	width: 15.1901%;
+	padding-bottom: 6.54%;
+	top: 77%;
+	left: 34%;
+}
+.content_body .sky span.thirteent .moveBg{
+	background: url(../images/skyline13.png);
+	background-size: cover; 
+}
+.content_body .sky span.nfourteen{
+	top: 102%;
+	left: 44%;
+}
+.content_body .sky span.fourteent{
+	width: 15.9286%;
+	padding-bottom: 4.9579%;
+	top: 82%;
+	left: 49%;
+}
+.content_body .sky span.fourteent .moveBg{
+	background: url(../images/skyline14.png);
+	background-size: cover; 
+}
+.content_body .sky span.nfifteen{
+	top: 87%;
+	left: 62.5%;
+}
+.content_body .sky span.fifteent{
+	width: 6.0127%;
+	padding-bottom: 12.0255%;
+	top: 43%;
+	left: 65%;
+}
+.content_body .sky span.fifteent .moveBg{
+	background: url(../images/skyline15.png);
+	background-size: cover; 
+}
+.content_body .sky span.nsixteen{
+	top: 47%;
+	left: 71.5%;
+}
+.content_body .sky span.sixteent .moveBg{
+	background: url(../images/skyline16.png);
+	background-size: cover; 
+}
+.content_body .sky span.sixteent{
+	width: 11.1816%;
+	padding-bottom: 9.8103%;
+	top: 11%;
+	left: 60%;
+}
+.content_body .sky span.nseventeen{
+	top: -7%;
+	left: 62.5%;
+}
+.content_body .sky span.seventeent{
+	width: 9.0719%;
+	padding-bottom: 9.0179%;
+	top: 10%;
+	left: 51%;
+}
+.content_body .sky span.seventeent .moveBg{
+	background: url(../images/skyline17.png);
+	background-size: cover; 
+}
+.content_body .sky span.neighteen{
+	top: 33%;
+	left: 40.5%;
+}
+.content_body .sky span.one{
+	top: -17%;
+	left: 10%;
+}
+.content_body .sky span.two{
+	top: 30%;
+	left: 3.5%;
+}
+.content_body .sky span.three{
+	top: 79%;
+	left: 7.5%;
+}
+.content_body .sky span.four{
+	top: 114%;
+	left: 16.5%;
+}
+.content_body .sky span.five{
+	top: 123%;
+	left: 36.5%;
+}
+.content_body .sky span.six{
+	top: 123%;
+	left: 59%;
+}
+.content_body .sky span.seven{
+	top: 81%;
+	left: 83.5%;
+}
+.content_body .sky span.eight{
+	top: 20%;
+	left: 86.5%;
+}
+.content_body .sky span.nine{
+	top: -17%;
+	left: 72.5%;
+}
+.content_body .sky span.ten{
+	top: -26%;
+	left: 55.5%;
+}
+.content_body .sky span.eleven{
+	top: -15%;
+	left: 33.5%;
+}
+.content_body .sky span.twelve{
+	top: 23%;
+	left:23.5%;
+}
+.content_body .sky span.thirteen{
+	top: 70%;
+	left: 31.5%;
+}
+.content_body .sky span.fourteen{
+	top: 91%;
+	left: 46.5%;
+}
+.content_body .sky span.fifteen{
+	top: 75%;
+	left: 62.5%;
+}
+.content_body .sky span.sixteen{
+	top: 36%;
+	left: 68.5%;
+}
+.content_body .sky span.seventeen{
+	top: 4%;
+	left: 57.5%;
+}
+.content_body .sky span.eighteen{
+	top: 33%;
+	left: 48.5%;
+}
+@media (max-width: 1024px){
+	.carLights .popup,.ohistory .popup{
+		width: 100%;
+		padding-bottom: 60.3308%;
+	}
+	.content_body .sky span.none{
+		top: -34%;
+		left: -9%;
+	}
+	.content_body .sky span.ntwo{
+		top: 30%;
+		left: -15%;
+	}
+	.content_body .sky span.nthree{
+		top: 80%;
+		left: -7%;
+	}
+	.content_body .sky span.nfive{
+		top: 125%;
+		left: 30%;
+	}
+	.content_body .sky span.neighteen{
+		top: 33%;
+		left: 36.5%;
+	}
+	.content_body .sky span.nfour{
+		top: 112%;
+		left: 2%;
+	}
+	.content_body .sky span.nfifteen{
+		top: 78%;
+		left: 59.5%;
+	}
+	.content_body .sky span.nsixteen{
+		top: 35%;
+		left: 66%;
+	}
+	.content_body .sky span.nsix{
+		top: 125%;
+		left: 53%;
+	}
+	.content_body .sky span.neight{
+		top: -6%;
+		left: 83%;
+	}
+	.content_body .sky span.nseven{
+		top: 86%;
+		left: 78%;
+	}
+	.content_body .sky span.nnine{
+		top: -43%;
+		left: 68%;
+	}
+	.content_body .sky span.nten{
+		top: -48%;
+		left:37%;
+	}
+	.content_body .sky span.neleven{
+		top: -37%;
+		left: 24%;
+	}
+	.content_body .sky span.nfourteen{
+		top: 99%;
+		left: 40%;
+	}
+	.content_body .sky span.nseventeen{
+		top: -9%;
+		left: 57.5%;
+	}
+}
+@media (max-width: 736px){
+	.content_body .sky span.word{
+		transform: scale(0.5);
+		-webkit-transform: scale(0.5);
+	}
+	.content_body .sky span.nthirteen{
+		top: 76%;
+		left: 17%;
+	}
+	.content_body .sky span.ntwelve{
+		top: 29%;
+		left: 8%;
+	}
+	.content_body .sky span.nfourteen{
+		top: 94%;
+		left: 33%;
+	}
+	.content_body .sky span.nfifteen{
+		top: 84%;
+		left: 52.5%;
+	}
+}
+@media (max-width: 735px) {
+	#bg .content .nav{
+		width: 100%;
+		padding-top: 1%;
+	};
+
+}
+@media  (orientation : portrait) and (max-width: 735px) { 
+	#bg .content_body .sky{
+		width: 90%;
+		padding-bottom: 54.3042%;
+	}
+	.content_body .sky span.ntwo{
+		top: 30%;
+		left: -8%;
+	}
+	.content_body .sky span.neight{
+		top: -5%;
+		left: 84%;
+	}
+	.content_body .sky span.neleven{
+		top: -50%;
+		left: 21%;
+	}
+	.content_body .sky span.nten{
+		top: -65%;
+		left: 37%;
+	}
+	.content_body .sky span.nnine{
+		top: -76%;
+		left: 68%;
+	}
+	.content_body .sky span.nseventeen{
+		top: -11%;
+		left: 61.5%;
+	}
+	.content_body .sky span.nsixteen{
+		top: 31%;
+		left: 67.5%;
+	}
+	.content_body .sky span.nfifteen{
+		top: 79%;
+		left: 55.5%;
+	}
+	.content_body .sky span.nfourteen{
+		top: 89%;
+		left: 30%;
+	}
+	.content_body .sky span.nseven{
+		top: 83%;
+		left: 83%;
+	}
+	.content_body .sky span.none{
+		top: -40%;
+		left: -5%;
+	}
+};

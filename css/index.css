@@ -138,6 +138,7 @@
 		opacity: 0.3
 	}
 }
+
 #bg{
 	width: 100%;
 	height: 100%;
@@ -170,6 +171,29 @@
 #bg .moveBg div{
 	opacity: 0;
 	filter: alpha(opacity=0);
+}
+#bg .moveBg span {
+    display: inline-block;
+    width: 24%;
+    padding-top: 5%;
+    position: absolute;
+    z-index: 33;
+}
+#bg .moveBg span.one{
+    left: 38%;
+    bottom: 16%;
+}
+#bg .moveBg span.two{
+    left: 51%;
+    bottom: 21%;
+}
+#bg .moveBg span.three{
+    left: 22%;
+    bottom: 16%;
+}
+#bg .moveBg span.four{
+    left: 13%;
+    bottom: 22%;
 }
 #bg .moveBg img{
 	width: 100%;
@@ -221,7 +245,7 @@
 	width: 100%;
 	min-width: 320px;
 	padding-top: 13.0208%;
-	position: absolute;
+	position: fixed;
 	z-index: 2;
 	pointer-events: none;
 }
@@ -233,6 +257,8 @@
 	position: absolute;
 	top: 0;
 	background-size: cover;
+	display: none;
+	pointer-events: none;
 }
 #box .sun{
 	background: url('../images/sun.png');
@@ -259,7 +285,7 @@
 	}
 	#bg .cx_seven{
 		top: 10%;
-		left: 2%;
+		left: 7%;
 	}
 	#bg .m_eight{
 		top: 10%;
@@ -271,10 +297,7 @@
 	}
 }
 @media(max-width: 960px)  {
-	#bg .m_six , #bg .cx_seven , #bg .m_eight ,#bg .m_ry{
-		width: 20%;
-		padding-top: 20%;
-	}
+	
 	#bg p{
 		letter-spacing: 6px;	
 	}
@@ -295,10 +318,24 @@
 	}
 }
 @media(max-width: 768px) {
+	#bg .m_six , #bg .cx_seven , #bg .m_eight ,#bg .m_ry{
+		width: 16%;
+		padding-top: 16%;
+	}
 	#bg p{
 		font-size: 18px;
 		letter-spacing: 8px;
 	}
+}
+@media (max-width: 568px) and (orientation : landscape){
+	#bg .m_six , #bg .cx_seven , #bg .m_eight ,#bg .m_ry{
+		width: 13%;
+		padding-top: 13%;
+	}
+	#bg p{
+		font-size: 11px;
+	}
+}
 @media(max-width: 480px) and (min-width: 375px) {
 	#bg p{
 		font-size: 12px;

@@ -1,0 +1,555 @@
+@keyframes star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+@-moz-keyframes  star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+@-webkit-keyframes star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+@-o-keyframes star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+#bg .content .move img{
+	position: absolute;
+	top: 0;
+	left: 25%;
+	height: 86%;
+}
+
+.content_body .m8 .m8bg{
+	background: url('../images/m8car.png') center no-repeat;
+	background-size:cover; 
+}
+.content_body .carLights .m82{
+	background: url('../images/m8car2.png') center no-repeat;
+	background-size:cover; 
+}
+.content_body .ohistory .m83{
+	background: url('../images/m8car3.png') center no-repeat;
+	background-size:cover; 
+}
+/* 线 */
+.content_body .m8 .line{
+	background: url('../images/line_m8.png');
+	background-size:cover; 
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+
+/* 发展历程文字 */
+.content_body .m8 span.none{
+	top: -3%;
+	left: 1%;
+}
+.content_body .m8 span.ntwo{
+	top: 80%;
+	left: 24%;
+}
+.content_body .m8 span.nthree{
+	top: -6%;
+	left: 33.5%;
+}
+.content_body .m8 span.nfour{
+	top: 75%;
+	left: 51.5%;
+}
+.content_body .m8 span.nfive{
+	top: 17%;
+	left: 68.5%;
+}
+.content_body .m8 span.nsix{
+	top: 54%;
+	left: 89%;
+}
+.content_body .m8 span.one{
+	top: 19%;
+	left: 10%;
+}
+.content_body .m8 span.two{
+	top: 64%;
+	left: 25%;
+}
+.content_body .m8 span.three{
+	top: 15%;
+	left: 35.5%;
+}
+.content_body .m8 span.four{
+	top: 65%;
+	left: 53.5%;
+}
+.content_body .m8 span.five{
+	top: 33%;
+	left: 71.5%;
+}
+.content_body .m8 span.six{
+	top: 75%;
+	left: 91%;
+}
+
+/* 车型亮点星星 */
+.carLights  ul span.one{
+	top: 45%;
+	left: 21%;
+	opacity: .3;
+}
+.carLights  ul span.onet{
+	width: 8.86%;
+	padding-bottom:  0.843%;
+	top: 47.8%;
+	left: 14.7%;
+}
+.carLights  ul span.onet .moveBg{
+	top: 0;
+	left: 100%;
+ 	background: url('../images/line1.png') center no-repeat;
+ 	background-size:cover; 
+}
+.carLights  ul span.two{
+	top: 37%;
+	left: 25%;
+	opacity: .5;
+}
+.carLights  ul span.twot{
+	width: 6.856%;
+	padding-bottom:3.059%;
+	top: 35.2%;
+	left: 20.5%;
+}
+.carLights  ul span.twot .moveBg{
+	top: 100%;
+	left: 100%;
+	background: url('../images/line3.png')   no-repeat;
+ 	background-size:cover; 
+}
+.carLights  ul span.three{
+	top: 50%;
+	left: 45%;
+	opacity: .7;
+}
+.carLights  ul span.threet{
+	width: 6.856%;
+	padding-bottom:3.059%;
+	top: 48.5%;
+	left: 40.7%;
+}
+.carLights  ul span.threet .moveBg{
+	top: 100%;
+	left: 100%;
+	background: url('../images/line3.png')  no-repeat;
+ 	background-size:cover; 	
+}
+.carLights  ul span.four{
+	top: 29%;
+	left: 67%;
+	opacity: .2;
+}
+.carLights  ul span.fourt{
+	width: 15.4%;
+	padding-bottom:4.9578%;
+	top: 24.5%;
+	left: 69.2%;
+}
+.carLights  ul span.fourt .moveBg{
+	top: 100%;
+	left: -100%;
+	background: url('../images/line4.png') no-repeat;
+ 	background-size:cover; 
+}
+.carLights  ul span.five{
+	top: 36%;
+	left: 69%;
+	opacity: .5;
+}
+.carLights  ul span.fivet{
+	width: 11.181%;
+	padding-bottom:6.54%;
+	top: 39%;
+	left: 71.2%;
+}
+.carLights  ul span.fivet .moveBg{
+	top: -100%;
+	left: -100%;
+	background: url('../images/line5.png')  no-repeat;
+ 	background-size:cover; 
+}
+.carLights  ul span.six{
+	top: 31%;
+	left: 83%;
+	opacity: .7;
+}
+.carLights  ul span.sixt{
+	width: 12.869%;
+	padding-bottom:7.278%;
+	top: 34%;
+	left: 73%;
+}
+.carLights  ul span.sixt .moveBg{
+	top:-100%;
+	left: 100%;
+	background: url('../images/line6.png') no-repeat;
+ 	background-size:cover; 
+}
+.carLights  ul span.seven{
+	top: 31%;
+	left: 83%;
+	opacity: .7;
+}
+.carLights  ul span.sevent{
+	width: 6.856%;
+	padding-bottom:3.059%;
+	top: 34%;
+	left: 73%;
+}
+.carLights  ul span.sevent .moveBg{
+	top:-100%;
+	left: 100%;
+	background: url('../images/line3.png') no-repeat;
+ 	background-size:cover; 
+}
+
+ /* 射线文字 */
+.carLights ul span.wordt, .ohistory ul span.wordt3{
+	position: absolute;
+	z-index: 44;
+	color: #fff;
+	font-size: 12px;
+	padding: 0.1rem;
+	background: url('../images/wordbg.png');
+	white-space:nowrap;  
+	display: none;
+}
+/* 阻止事件冒泡 */
+.carLights ul span.wordt p, .ohistory ul span.wordt p{
+	pointer-events: none;
+}
+.carLights ul span.wordt .hide i, .ohistory ul span.wordt .hide i{
+	float: right;
+}
+/*车型亮点的详细文字介绍 */
+.carLights .popup, .ohistory .popup{
+	position: absolute;
+	width: 80%;
+	padding-bottom: 45.2535%;
+}
+
+/* 滚动条 */
+ .carLights .popup .scrollbar, .ohistory .popup .scrollbar{position:absolute;right:-11px;top:0;bottom:0;width:10px;font-size:0;line-height:0;overflow:hidden;height:100%;background: url('../images/scrollbar.png');} /* //滚动条可自定义整体高度 */
+/* .carLights .popup .scrollbar .scrollbar_tt,.scrollbar .scrollbar_bb{ height:5px; background:#000; overflow:hidden;}  */
+.carLights .popup .scrollbar .scrollbar_m, .ohistory .popup .scrollbar .scrollbar_m{ height: 23px; overflow:hidden; background:url('../images/scrollbarm.png') top no-repeat; position:relative;} 
+.carLights .popup .popupBox, .ohistory .popup .popupBox2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.carLights .popup .popupBox h4, .ohistory .popup .popupBox2 h4{
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	top: 5%;
+	text-align: center;
+}
+.carLights .popupBox  div.setPopup, .ohistory .popupBox2  div.setPopup{
+	transform: scale(0.5,0.5);
+	-webkit-transform: scale(0.5,0.5);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background:url('../images/wordbg.png');
+	border-radius: 4px;
+	box-shadow: 0 0 40px 10px rgb(14,35,63);
+	padding-top: 1%;
+	display: none;
+	z-index: 55;
+	transition: transform 0.2s;
+	-webkit-transition: transform 0.2s;
+	-moz-transition: transform 0.2s;
+	overflow: hidden;
+}
+.carLights .popupBox  div .close,.ohistory .popupBox2  div .close{
+	width: 5%;
+	height: 8%;
+	position: absolute;
+	background:url('../images/close.png') no-repeat center;
+	background-size: cover; 
+	right: 0.25em;
+	top: 0.25em;
+}
+.carLights .popupBox  div .detailed, .ohistory .popupBox2  div .detailed{
+	top: 9.5%;
+	width: 96%;
+	left: 1%;
+	height: 85%;
+	color: #ccc;
+	font-size: 12px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	overflow: auto;
+}
+.carLights .popupBox  div .detailed p, .ohistory .popupBox2  div .detailed p{
+	line-height: 22px;
+	text-indent: 2em;
+}
+/* 车主故事 */
+.ohistory  ul span.one3{
+	top: 32%;
+	left: 11%;
+	opacity: .3;
+}
+.ohistory  ul span.onet3{
+	width: 8.86%;
+	padding-bottom:  0.843%;
+	top: 34.7%;
+	left: 4.7%;
+}
+.ohistory  ul span.onet3 .moveBg3{
+ 	background: url('../images/line1.png') center no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.two3{
+	top: 23%;
+	left: 33%;
+	opacity: .5;
+}
+.ohistory  ul span.twot3{
+	width: 17.0886%;
+	padding-bottom: 9.7046%;
+	top: 26.5%;
+	left: 18.5%;
+}
+.ohistory  ul span.twot3 .moveBg3{
+	background: url('../images/line2.png')   no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.three3{
+	top: 53%;
+	left: 21%;
+	opacity: .7;
+}
+.ohistory  ul span.threet3{
+	width: 6.856%;
+	padding-bottom:3.059%;
+	top: 51.5%;
+	left: 16.7%;
+}
+.ohistory  ul span.threet3 .moveBg3{
+	background: url('../images/line3.png')  no-repeat;
+ 	background-size:cover; 	
+}
+.ohistory  ul span.four3{
+	top: 36%;
+	left: 39%;
+	opacity: .6;
+}
+.ohistory  ul span.fourt3{
+	width: 15.4%;
+	padding-bottom:4.9578%;
+	top: 31.5%;
+	left: 41.5%;
+}
+.ohistory  ul span.fourt3 .moveBg3{
+	background: url('../images/line4.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.five3{
+	top: 25%;
+	left: 64%;
+	opacity: .5;
+}
+.ohistory  ul span.fivet3{
+	width: 12.869%;
+	padding-bottom:7.278%;
+	top: 16.5%;
+	left: 66.5%;
+}
+.ohistory  ul span.fivet3 .moveBg3{
+	background: url('../images/line6.png')  no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.six3{
+	top: 58%;
+	left: 61.5%;
+	opacity: .3;
+}
+.ohistory  ul span.sixt3{
+	width: 12.869%;
+	padding-bottom:7.278%;
+	top: 49.5%;
+	left: 64%;
+}
+.ohistory  ul span.sixt3 .moveBg3{
+	background: url('../images/line6.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.seven3{
+	top: 47%;
+	left: 77%;
+	opacity: .1;
+}
+.ohistory  ul span.sevent3{
+	width: 11.181%;
+	padding-bottom:6.54%;
+	top: 50.5%;
+	left: 79.5%;
+}
+.ohistory  ul span.sevent3 .moveBg3{
+	background: url('../images/line5.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.eight3{
+	top: 32%;
+	left: 88%;
+	opacity: .1;
+}
+.ohistory  ul span.eightt3{
+	width: 6.856%;
+	padding-bottom:3.059%;
+	top: 35.5%;
+	left: 90.4%;
+}
+.ohistory  ul span.eightt3 .moveBg3{
+	background: url('../images/line3.png') no-repeat;
+ 	background-size:cover; 
+}
+@media (max-width: 1024px){
+	.carLights .popup,.ohistory .popup{
+		width: 100%;
+		padding-bottom: 60.3308%;
+	}
+	.content_body .m8 span.none{
+	top: -26%;
+	left: -5%;
+	}
+	.content_body .m8 span.ntwo{
+	top: 69%;
+	left: 9%;
+	}
+	.content_body .m8 span.nthree{
+	top: -39%;
+	left: 25.5%;
+	}
+	.content_body .m8 span.nfour{
+		top: 72%;
+		left: 43.5%;
+	}
+	.content_body .m8 span.nfive{
+	top: -7%;
+	left: 60.5%;
+	}
+	.content_body .m8 span.nsix{
+	top: 81%;
+	left: 86%;
+	}
+}
+@media (max-width: 667px){
+	#bg .header {
+		height: 16%;
+	}
+}
+@media (max-width: 736px){
+	#bg .header {
+		height: 16%;
+	}
+	#bg .content{
+		top: 1%;
+	}
+	.content_body .m8 span.word{
+		transform: scale(0.65);
+		-webkit-transform: scale(0.65);
+	}
+	.carLights .popupBox  div .detailed,.ohistory .popupBox2  div .detailed{
+		font-size: 12px;
+	}
+	.carLights .popupBox  div .detailed, .ohistory .popupBox2  div .detailed{
+		top: 11.5%;
+	}
+	.carLights .popup .popupBox h4, .ohistory .popup .popupBox2 h4{
+		font-size: 12px;
+		top: 0;
+	}
+	.carLights .popupBox  div .detailed, .ohistory .popupBox2  div .detailed{
+		top: 11.5%;
+		width: 94%;
+	}
+}
+@media (orientation : landscape) and (max-width: 736px) { 
+	.content_body .m8 span.none{
+		top: -14%;
+		left: 1%;
+	}
+	.content_body .m8 span.ntwo{
+		top: 75%;
+		left: 20%;
+	}
+	.content_body .m8 span.nthree{
+		top: -14%;
+		left: 25%;
+	}
+	.content_body .m8 span.nfour{
+		top: 71%;
+		left: 48.5%;
+	}
+	.content_body .m8 span.nfive{
+		top: 3%;
+		left: 60.5%;
+	}
+}
+@media (max-width: 735px) {
+	#bg .content .move img{
+		height: 99%;
+	}
+	#bg .content .nav{
+		width: 100%;
+		padding-top: 1%;
+	};
+	.content_body .m8 span.nseven {
+	    top: 86%;
+	    left: 47%;
+	};
+	.content_body .m8 span.nseven {
+	    top: 90%;
+	    left: 45%;
+	};
+	.content_body .m8 span.nten{
+		top: 68%;
+		left: 80%;
+	};
+	#bg .content .serve{
+		width: 17.9419%
+	};
+}
+@media  (orientation : portrait) and (max-width: 735px) { 
+	#bg .content_body .m8{
+		width: 90%;
+		padding-bottom: 54.3042%;
+	}
+	#bg .foot{
+		width: 59.4217%;
+		padding-top: 8.925%;
+		margin-left: -29.71085%;
+	}
+};

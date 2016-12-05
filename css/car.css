@@ -1,0 +1,730 @@
+@keyframes star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+@-moz-keyframes  star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+@-webkit-keyframes star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+@-o-keyframes star{
+	0%{
+		opacity: 1
+	}
+	100%{
+		opacity: 0.3
+	}
+}
+#bg .content .move img{
+	position: absolute;
+	top: 0;
+	left: 2.5%;
+	height: 86%;
+}
+
+.content_body .m6 .m6bg{
+	background: url('../images/m6car.png') center no-repeat;
+	background-size:cover; 
+}
+.content_body .carLights .m62{
+	background: url('../images/m6car2.png') center no-repeat;
+	background-size:cover; 
+}
+.content_body .ohistory .m63{
+	background: url('../images/m6car3.png') center no-repeat;
+	background-size:cover; 
+}
+/* 线 */
+.content_body .m6 .line{
+	background: url('../images/line.png');
+	background-size:cover; 
+	height: 100%;
+	position: absolute;
+	top: 0px;
+}
+#bg .content .move a.one{
+	top: 0;
+}
+/* 发展历程文字 */
+.content_body .m6 span.none{
+	top: 22%;
+	left: -10%;
+}
+.content_body .m6 span.ntwo{
+	top: 78%;
+	left: -1%;
+}
+.content_body .m6 span.nthree{
+	top: -14%;
+	left: 8%;
+}
+.content_body .m6 span.nfour{
+	top: 56%;
+	left: 16%;
+}
+.content_body .m6 span.nfive{
+	top: 10%;
+	left: 30%;
+}
+.content_body .m6 span.nsix{
+	top: 44%;
+	left: 53%;
+}
+.content_body .m6 span.nseven{
+	top: 73%;
+	left: 42%;
+}
+.content_body .m6 span.neight{
+	top: 88%;
+	left:64%;
+}
+.content_body .m6 span.nnine{
+	top: -1%;
+	left: 68%;
+}
+.content_body .m6 span.nten{
+	top: 68%;
+	left: 79%;
+}
+.content_body .m6 span.neleven{
+	top: -1%;
+	left: 87%;
+}
+.content_body .m6 span.ntwelve{
+	top: 55%;
+	left: 95%;
+}
+
+.content_body .m6 span.one{
+	top: 36%;
+	left: -2%;
+}
+.content_body .m6 span.two{
+	top: 66%;
+	left: 5.5%;
+}
+.content_body .m6 span.three{
+	top: 9%;
+	left: 13.5%;
+}
+.content_body .m6 span.four{
+	top: 47%;
+	left: 25.5%;
+}
+.content_body .m6 span.five{
+	top: 33%;
+	left: 36.5%;
+}
+.content_body .m6 span.six{
+	top: 46%;
+	left: 46.5%;
+}
+.content_body .m6 span.seven{
+	top: 76%;
+	left: 50.5%;
+}
+.content_body .m6 span.eight{
+	top: 66%;
+	left: 66.5%;
+}
+.content_body .m6 span.nine{
+	top: 16.5%;
+	left: 72.5%;
+}
+.content_body .m6 span.ten{
+	top: 56%;
+	left: 78.5%;
+}
+.content_body .m6 span.eleven{
+	top: 17%;
+	left: 85.5%;
+}
+.content_body .m6 span.twelve{
+	top: 47%;
+	left: 97.5%;
+}
+/* 车型亮点星星 */
+.carLights  ul span.one{
+	top: 29%;
+	left: 21%;
+	opacity: .3;
+}
+.carLights  ul span.onet{
+	width: 8.86%;
+	padding-bottom:  0.843%;
+	top: 31.8%;
+	left: 14.7%;
+}
+.carLights  ul span.onet .moveBg{
+	top: 0;
+	left: 100%;
+ 	background: url('../images/line1.png') center no-repeat;
+ 	background-size:cover; 
+}
+.carLights  ul span.two{
+	top: 47%;
+	left: 26%;
+	opacity: .5;
+}
+.carLights  ul span.twot{
+	width: 17.0886%;
+	padding-bottom: 9.7046%;
+	top: 49.9%;
+	left: 11.7%;
+}
+.carLights  ul span.twot .moveBg{
+	top: -100%;
+	left: 100%;
+	background: url('../images/line2.png')   no-repeat;
+ 	background-size:cover; 
+}
+.carLights  ul span.three{
+	top: 24%;
+	left: 52%;
+	opacity: .7;
+}
+.carLights  ul span.threet{
+	width: 6.856%;
+	padding-bottom:3.059%;
+	top: 22.5%;
+	left: 47.7%;
+}
+.carLights  ul span.threet .moveBg{
+	top: 100%;
+	left: 100%;
+	background: url('../images/line3.png')  no-repeat;
+ 	background-size:cover; 	
+}
+.carLights  ul span.four{
+	top: 28%;
+	left: 65%;
+	opacity: .2;
+}
+.carLights  ul span.fourt{
+	width: 15.4%;
+	padding-bottom:4.9578%;
+	top: 23.5%;
+	left: 67.5%;
+}
+.carLights  ul span.fourt .moveBg{
+	top: 100%;
+	left: -100%;
+	background: url('../images/line4.png') no-repeat;
+ 	background-size:cover; 
+}
+.carLights  ul span.five{
+	top: 58%;
+	left: 65%;
+	opacity: .5;
+}
+.carLights  ul span.fivet{
+	width: 11.181%;
+	padding-bottom:6.54%;
+	top: 61%;
+	left: 67.5%;
+}
+.carLights  ul span.fivet .moveBg{
+	top: -100%;
+	left: -100%;
+	background: url('../images/line5.png')  no-repeat;
+ 	background-size:cover; 
+}
+.carLights  ul span.six{
+	top: 56%;
+	left: 52%;
+	opacity: .7;
+}
+.carLights  ul span.sixt{
+	width: 12.869%;
+	padding-bottom:7.278%;
+	top: 59%;
+	left: 42%;
+}
+.carLights  ul span.sixt .moveBg{
+	top:-100%;
+	left: 100%;
+	background: url('../images/line6.png') no-repeat;
+ 	background-size:cover; 
+}
+/* 定位 */
+/* .carLights  .pos, .ohistory  .pos{
+	position: absolute;top: 0;left: 0;bottom: 0;right: 0;background: red;
+}
+ *//* 射线文字 */
+.carLights ul span.wordt, .ohistory ul span.wordt3{
+	position: absolute;
+	z-index: 44;
+	color: #fff;
+	font-size: 12px;
+	padding: 0.1rem;
+	background: url('../images/wordbg.png');
+	white-space:nowrap;  
+	display: none;
+}
+/* 阻止事件冒泡 */
+.carLights ul span.wordt p, .ohistory ul span.wordt p{
+	pointer-events: none;
+}
+.carLights ul span.wordt .hide i, .ohistory ul span.wordt .hide i{
+	float: right;
+}
+/*车型亮点的详细文字介绍 */
+.carLights .popup, .ohistory .popup{
+	position: absolute;
+	width: 80%;
+	padding-bottom: 45.2535%;
+}
+
+/* 滚动条 */
+ .carLights .popup .scrollbar, .ohistory .popup .scrollbar{position:absolute;right:-11px;top:0;bottom:0;width:10px;font-size:0;line-height:0;overflow:hidden;height:100%;background: url('../images/scrollbar.png');} /* //滚动条可自定义整体高度 */
+/* .carLights .popup .scrollbar .scrollbar_tt,.scrollbar .scrollbar_bb{ height:5px; background:#000; overflow:hidden;}  */
+.carLights .popup .scrollbar .scrollbar_m, .ohistory .popup .scrollbar .scrollbar_m{ height: 23px; overflow:hidden; background:url('../images/scrollbarm.png') top no-repeat; position:relative;} 
+.carLights .popup .popupBox, .ohistory .popup .popupBox2{
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.carLights .popup .popupBox h4, .ohistory .popup .popupBox2 h4{
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	top: 5%;
+	text-align: center;
+}
+.carLights .popupBox  div.setPopup, .ohistory .popupBox2  div.setPopup{
+	transform: scale(0.5,0.5);
+	-webkit-transform: scale(0.5,0.5);
+	position: absolute;
+	z-index:55;
+	width: 100%;
+	height: 100%;
+	background:url('../images/wordbg.png');
+	border-radius: 4px;
+	box-shadow: 0 0 40px 10px rgb(14,35,63);
+	padding-top: 1%;
+	display: none;
+	transition: transform 0.2s;
+	-webkit-transition: transform 0.2s;
+	-moz-transition: transform 0.2s;
+	overflow: hidden;
+}
+.carLights .popupBox  div .close,.ohistory .popupBox2  div .close{
+	width: 5%;
+	height: 8%;
+	position: absolute;
+	background:url('../images/close.png') no-repeat center;
+	background-size: cover; 
+	top: 0.25em;
+	right: 0.25em;
+}
+/* .carLights .popup .bigButton,.ohistory .popup .bigButton{
+	position: absolute;
+	z-index: 66;
+	transition: transform .3s;
+	-webkit-transition: transform .3s;
+	-moz-transition: transform .3s;
+	display: none;
+}
+.carLights .popup .bigButton:hover,.ohistory .popup .bigButton:hover{
+	transform: scale(1.2,1.2);
+	-webkit-transform: scale(1.2,1.2);
+	-moz-transform: scale(1.2,1.2);
+} */
+/* .carLights .popup .littleButton, .ohistory .popup .littleButton{
+	height: 5%;
+	position: absolute;
+	bottom: 3%;
+	z-index: 66;
+	white-space:nowrap;  IE
+	display: none;
+} */
+
+.carLights .popupBox  div .detailed, .ohistory .popupBox2  div .detailed{
+	top: 9.5%;
+	width: 96%;
+	left: 1%;
+	height: 85%;
+	color: #ccc;
+	font-size: 12px;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	overflow: auto;
+}
+.carLights .popupBox  div .detailed p, .ohistory .popupBox2  div .detailed p{
+	line-height: 22px;
+	text-indent: 2em;
+}
+/* 车主故事 */
+.ohistory  ul span.one3{
+	top: 20%;
+	left: 14%;
+	opacity: .3;
+}
+.ohistory  ul span.onet3{
+	width: 8.86%;
+	padding-bottom:  0.843%;
+	top: 22.8%;
+	left: 7.7%;
+}
+.ohistory  ul span.onet3 .moveBg3{
+ 	background: url('../images/line1.png') center no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.two3{
+	top: 42%;
+	left: 17%;
+	opacity: .5;
+}
+.ohistory  ul span.twot3{
+	width: 17.0886%;
+	padding-bottom: 9.7046%;
+	top: 45.5%;
+	left: 2.5%;
+}
+.ohistory  ul span.twot3 .moveBg3{
+	background: url('../images/line2.png')   no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.three3{
+	top: 11%;
+	left: 43%;
+	opacity: .7;
+}
+.ohistory  ul span.threet3{
+	width: 6.856%;
+	padding-bottom:3.059%;
+	top: 9.5%;
+	left: 38.7%;
+}
+.ohistory  ul span.threet3 .moveBg3{
+	background: url('../images/line3.png')  no-repeat;
+ 	background-size:cover; 	
+}
+.ohistory  ul span.four3{
+	top: 18%;
+	left: 59%;
+	opacity: .6;
+}
+.ohistory  ul span.fourt3{
+	width: 15.4%;
+	padding-bottom:4.9578%;
+	top: 13.5%;
+	left: 61.5%;
+}
+.ohistory  ul span.fourt3 .moveBg3{
+	background: url('../images/line4.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.five3{
+	top: 30%;
+	left: 75%;
+	opacity: .5;
+}
+.ohistory  ul span.fivet3{
+	width: 12.869%;
+	padding-bottom:7.278%;
+	top: 21.5%;
+	left: 77.5%;
+}
+.ohistory  ul span.fivet3 .moveBg3{
+	background: url('../images/line6.png')  no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.six3{
+	top: 47%;
+	left: 87%;
+	opacity: .3;
+}
+.ohistory  ul span.sixt3{
+	width: 12.869%;
+	padding-bottom:7.278%;
+	top: 38.5%;
+	left: 89.5%;
+}
+.ohistory  ul span.sixt3 .moveBg3{
+	background: url('../images/line6.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.seven3{
+	top: 69%;
+	left: 80%;
+	opacity: .1;
+}
+.ohistory  ul span.sevent3{
+	width: 6.856%;
+	padding-bottom:3.059%;
+	top: 72%;
+	left: 82.5%;
+}
+.ohistory  ul span.sevent3 .moveBg3{
+	background: url('../images/line3.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.eight3{
+	top: 75%;
+	left: 61%;
+	opacity: .4;
+}
+.ohistory  ul span.eightt3{
+	width: 6.856%;
+	padding-bottom:3.059%;
+	top: 78.5%;
+	left: 63.5%;
+}
+.ohistory  ul span.eightt3 .moveBg3{
+	background: url('../images/line3.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.nine3{
+	top: 77%;
+	left: 46%;
+	opacity: .6;
+}
+.ohistory  ul span.ninet3{
+	width: 8.86%;
+	padding-bottom:  0.843%;
+	top: 79.5%;
+	left: 39.8%;
+}
+.ohistory  ul span.ninet3 .moveBg3{
+	background: url('../images/line1.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.ten3{
+	top: 52%;
+	left: 33%;
+	opacity: .6;
+}
+.ohistory  ul span.tent3{
+	width: 12.869%;
+	padding-bottom:7.278%;
+	top: 55%;
+	left: 22.8%;
+}
+.ohistory  ul span.tent3 .moveBg3{
+	background: url('../images/line6.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.eleven3{
+	top: 30%;
+	left: 33%;
+	opacity: .8;
+}
+.ohistory  ul span.elevent3{
+	width: 11.181%;
+	padding-bottom:6.54%;
+	top: 22.5%;
+	left: 24.5%;
+}
+.ohistory  ul span.elevent3 .moveBg3{
+	background: url('../images/line5.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.twelve3{
+	top: 20%;
+	left: 37%;
+	opacity: .5;
+}
+.ohistory  ul span.twelvet3{
+	width: 11.181%;
+	padding-bottom:6.54%;
+	top: 12.5%;
+	left: 28.5%;
+}
+.ohistory  ul span.twelvet3 .moveBg3{
+	background: url('../images/line5.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.thirteen3{
+	top: 30%;
+	left: 49%;
+	opacity: .6;
+}
+.ohistory  ul span.thirteent3{
+	width: 11.181%;
+	padding-bottom:6.54%;
+	top: 33.5%;
+	left: 51.5%;
+}
+.ohistory  ul span.thirteent3 .moveBg3{
+	background: url('../images/line5.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.fourteen3{
+	top: 38%;
+	left: 62%;
+	opacity: .5;
+}
+.ohistory  ul span.fourteent3{
+	width: 11.181%;
+	padding-bottom:6.54%;
+	top: 41.5%;
+	left: 64.5%;
+}
+.ohistory  ul span.fourteent3 .moveBg3{
+	background: url('../images/line5.png') no-repeat;
+ 	background-size:cover; 
+}
+.ohistory  ul span.fiveteen3{
+	top: 53%;
+	left: 71%;
+	opacity: .7;
+}
+.ohistory  ul span.fiveteent3{
+	width: 11.181%;
+	padding-bottom:6.54%;
+	top: 56%;
+	left: 73.3%;
+}
+.ohistory  ul span.fiveteent3 .moveBg3{
+	background: url('../images/line5.png') no-repeat;
+ 	background-size:cover; 
+}
+@media (max-width: 1024px){
+	.carLights .popup,.ohistory .popup{
+		width: 100%;
+		padding-bottom: 60.3308%;
+	}
+}
+
+@media (max-width: 736px){
+	#bg .header {
+		height: 16%;
+	}
+	#bg .content{
+		top: 1%;
+	}
+	.content_body .m6 span.word{
+		transform: scale(0.65);
+		-webkit-transform: scale(0.65);
+	}
+	.carLights .popupBox  div .detailed,.ohistory .popupBox2  div .detailed{
+		font-size: 12px;
+	}
+	.carLights .popup .popupBox h4, .ohistory .popup .popupBox2 h4{
+		font-size: 12px;
+		top: 0;
+	}
+	.carLights .popupBox  div .detailed, .ohistory .popupBox2  div .detailed{
+		top: 11.5%;
+		width: 94%;
+	}
+	.content_body .m6 span.none{
+	top: -4%;
+	left: -10%;
+	}
+	.content_body .m6 span.ntwo{
+	top: 83%;
+	left: -5%;
+	}
+	.content_body .m6 span.nthree{
+	top: -50%;
+	left: 8%;
+	}
+	.content_body .m6 span.nfive{
+	top: -10%;
+	left: 27%;
+	}
+	.content_body .m6 span.nsix{
+	top: 26%;
+	left: 49%;
+	}
+	.content_body .m6 span.nnine{
+	top: -26%;
+	left: 51%;
+	}
+	.content_body .m6 span.neleven{
+	top: -46%;
+	left: 74%;
+	}
+	.content_body .m6 span.neight {
+	    top: 70%;
+	    left: 61%;
+	}
+	.content_body .m6 span.ntwelve {
+	    top:-11%;
+	    left: 90%;
+	}
+}
+@media (orientation : landscape) and (max-width: 736px) { 
+	#bg .content .move img{
+		height: 95%;
+	}
+	.content_body .m6 span.none{
+		top: 8%;
+		left: -10%;
+	}
+	.content_body .m6 span.nthree{
+		top: -27%;
+		left: 8%;
+	}
+	.content_body .m6 span.nfive{
+		top: 4%;
+		left: 27%;
+	}
+	.content_body .m6 span.nnine{
+		top: -14%;
+		left: 64%;
+	}
+	.content_body .m6 span.neleven{
+		top: -14%;
+		left: 81%;
+	}
+	.content_body .m6 span.ntwelve{
+		top: 7%;
+		left: 97%;
+	}
+} 
+@media (max-width: 735px) {
+	#bg .content .move img{
+		height: 99%;
+	}
+	#bg .content .nav{
+		width: 96%;
+		padding-top: 1%;
+	};
+	.content_body .m6 span.nseven {
+	    top: 86%;
+	    left: 47%;
+	};
+	.content_body .m6 span.nseven {
+	    top: 90%;
+	    left: 45%;
+	};
+	.content_body .m6 span.nten{
+		top: 68%;
+		left: 80%;
+	};
+	#bg .content .serve{
+		width: 17.9419%
+	};
+}
+@media  (orientation : portrait) and (max-width: 735px) { 
+	#bg .content_body .m6{
+		width: 90%;
+		padding-bottom: 54.3042%;
+	}
+	#bg .foot{
+		width: 59.4217%;
+		padding-top: 8.925%;
+		margin-left: -29.71085%;
+	}
+};
