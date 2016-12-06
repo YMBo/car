@@ -118,14 +118,15 @@ $(function(){
 		$('.moveBg').delegate('span','mouseenter',function(event){
 			event.stopPropagation();
 			fflag=false;
-			$(this).siblings('.num2').fadeIn();
+			$(this).siblings('.num2').stop(true).fadeIn();
 			$(this).siblings('.num1').css('opacity',1);
 		});
 		$('.moveBg').delegate('span','mouseleave',function(event){
 			event.stopPropagation();
-			$(this).siblings('.num2').fadeOut(function(){
+			$(this).siblings('.num2').stop(true).fadeOut(function(){
 				fflag=true;
 			});
+			$(this).siblings('.num1').css('opacity',0);
 		});
 		$(document).mousemove(function(e){
 			//距离

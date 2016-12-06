@@ -609,7 +609,7 @@ $(function(){
 				 	});
 			 		$('.ohistory .wordt3').eq(5).css({
 			 			'top':(parseInt($('.ohistory .linet3').eq(5).css('top'))-parseInt($('.ohistory .wordt3').eq(5).innerHeight()))+'px',
-			 			'left':(parseInt($('.ohistory .linet3').eq(5).css('left')))+'px'
+			 			'left':(parseInt($('.ohistory .linet3').eq(5).css('left'))+parseInt($('.ohistory .linet3').eq(4).innerWidth())/2)+'px'
 			 	 	});
 			 	 	$('.ohistory .wordt3').eq(6).css({
 			 			'top':(parseInt($('.ohistory .linet3').eq(6).css('top'))+parseInt($('.ohistory .linet3').eq(6).innerHeight()))+'px',
